@@ -1,0 +1,29 @@
+.menu
+{
+    width: 100%;
+    height:400px; 
+    font-family: 'Alex Brush', cursive;
+    background-image: url("https://images.pexels.com/photos/243053/pexels-photo-243053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+ 
+    color:white;
+    
+}
+ 
+.navi
+{
+     background-color: whitesmoke;
+     color:white;
+    margin-bottom: 60px;
+    
+}
+.menu-intro
+{
+  
+    width:30%;
+    border:1px solid gray;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:150px;
+   
+    
+}
