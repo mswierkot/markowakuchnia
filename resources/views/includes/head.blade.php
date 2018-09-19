@@ -13,25 +13,18 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
       
         <!-- fonts -->
-       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> <!-- nie obsługuje czesci polskich znaków -->
-       <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet"> <!-- nie obsługuje czesci polskich znaków -->
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
- 
-        <script type="text/javascript" src="{{URL::asset('assets/js/instafeed.min.js')}}"></script>
-        
-       <script type="text/javascript">
-        $(document).ready(function(){
-             $("#myCarousel").carousel();
-        });
-       </script>
-       <title>Kulinarny blog Marka</title>
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>     
+   
+        <title>Markowa Kuchnia</title>
        
         <style>
-            
          
-            #img1{
+            
+          #img1{
                 position: relative;
                 float: left;
                 width:  640px;
@@ -39,16 +32,40 @@
                 background-position: 50% 50%;
                 background-repeat:   no-repeat;
                 background-size:  cover; }
+            a
+            {
+                color: black;
+                transition: 0.6s ease;
+            }
         a:link
            {
                color:black;
                text-decoration: none;
            }
+              #nav_element>a:visited
+            {
+                color:white;
+            }
+                #nav_element>a:hover
+            {
+                
+                font-size: 100%;
+                transition: 0.6s ease;
+            }
+            
+            
+            
            a:visited
            {
                color:black;
                text-decoration: none;
            }
+            a:hover
+            {
+                color:darkgoldenrod;
+                font-size: 103%;
+                transition: 0.6s ease;
+            }
         .navbar-nav.navbar-center
                  {
                         position: absolute;
@@ -72,7 +89,7 @@
         
         #nav_div_3
            {
-               height: 350px; 
+               height: 450px; 
            }
          
         #nav_div_4
@@ -81,23 +98,30 @@
                height: 130px; 
                margin-top: 80px; 
            }
-        #nav_p_1
+        #nav_p  
+           {
+               text-align:center; 
+               font-size: 59px;  
+               color: black;
+               font-family: 'Dancing Script', cursive;
+           }  
+            #nav_p_1
            {
                text-align:center; 
                font-size: 59px; 
-               margin-top: 20px; 
+               margin-bottom: -10px; 
+               
                color: black;
                font-family: 'Dancing Script', cursive;
            }
-        #nav_p_2
+           #nav_p_2
            {
                color:  goldenrod;
                 text-align:center; 
-               font-size: 35px; 
-               margin-top: 20px; 
+               font-size: 35px;  
                font-family: 'Amatic SC', cursive;"
            }
-        #nav_bar_1
+            #nav_bar_1
            {
                margin-bottom:-20px;
                color:white; 
@@ -214,15 +238,16 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             }
            #sec_recipie_img 
            {
-               border: 3px solid white;
+                border: 3px solid white;
                 transition: 1s ease;
-                height:250px;
+                height:400px;
+               width:100%;
            }
            #sec_recipie_img:hover
            {
-              -webkit-transform: scale(1.02);
-              -ms-transform: scale(1.02);
-              transform: scale(1.02);
+              -webkit-transform: scale(1.01);
+              -ms-transform: scale(1.01);
+              transform: scale(1.01);
               transition: 1s ease;
              
            }
@@ -290,4 +315,4 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
             }
             
         </style>
- 
+    

@@ -18,11 +18,11 @@
                        <h2 style="font-weight:bold; margin-top: 50px; font-size: 35px;">->> {{ $article -> title}}  </h2>
                    </div>
                     <div style="margin-top: 30px;" class="row">
-                        <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
-                            <img id="img1" src="{{ $article -> sciezka}}" alt="">
+                        <div class="col col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7" style="margin-bottom: 30px;">
+                            <img id="img1" src="{{ $article -> sciezka}}" class="img-fluid" alt="">
                         </div>
-                        <div style="background-color: #ececdc; font-size: 27px; border-right: 4px dashed gray;  " class="col col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
-                            <h1 style="font-weight:bold;">->> Co muszisz kupić?</h1>
+                        <div style=" background-color: #ececdc; font-size: 27px; border-right: 4px dashed gray;  " class="col col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                            <h1 style="font-weight:bold; ">->> Co muszisz kupić?</h1>
                             <p>  
                             
                                 {!! str_replace('<br>', '<br>', $article -> lista) !!}
@@ -45,17 +45,17 @@
                     <div class="row">
                       
                         <h1 style="font-weight:bold; margin-bottom: 20px;">->> Jak to wyglądało?</h1>
-                        <div class="col-lg-5 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
-                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura1}}); height:300px;"></div>
+                        <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
+                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura1}}); "></div>
                         </div>
                         
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
-                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura2}}); height:300px;"></div>
+                        <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
+                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura2}}); "></div>
                         </div>
                           
                                
-                        <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
-                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura3}}); height:300px;"></div>
+                        <div class="col col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" style="float:left; margin-top: 8px;">
+                            <div id="sec_recipie_img" style="background-image:url({{ $article -> miniatura3}}); "></div>
                         </div>
                 
                     </div>

@@ -47,20 +47,20 @@
                      <h1 id="secRecipeHmain">
                        <a href="{{ action('ArticleController@publicHomePage') }}#kat_element"> >> Co ostatnio u mnie na talerzu? << </a></h1> 
                <div id="sec_kategorie" class="row">
-                  <div class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"></div>
+                  <div class="col col-xs-0 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
          
-                 <div id="kat_element" class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"><img style="width: 43%;" src="/image/sniadanie.png"><a href="{{ action('ArticleController@publicHomePageSniadania') }}#kat_element"><br>Śniadania</a></div>
-                 <div id="kat_element" class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"><img style="width: 43%;" src="/image/obiad.png"><a href="{{ action('ArticleController@publicHomePageDaniaglowne') }}#kat_element"><br>Dania główne</a></div>
+                 <div id="kat_element" class="col col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2"><img style="width: 30%;" src="/image/sniadanie.png"><a href="{{ action('ArticleController@publicHomePageSniadania') }}#kat_element"><br>Śniadania</a></div>
+                 <div id="kat_element" class="col col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2"><img style="width: 30%;" src="/image/obiad.png"><a href="{{ action('ArticleController@publicHomePageDaniaglowne') }}#kat_element"><br>Dania główne</a></div>
                  
                  
-                 <div id="kat_element" class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"><img style="width: 43%;" src="/image/deser.png"><a href="{{ action('ArticleController@publicHomePageDesery') }}#kat_element"><br>Desery</a></div>
+                 <div id="kat_element" class="col col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2"><img style="width: 30%;" src="/image/deser.png"><a href="{{ action('ArticleController@publicHomePageDesery') }}#kat_element"><br>Desery</a></div>
                  
                  
-                 <div style="border-right: 2px gray dashed;" id="kat_element" class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"><img style="width: 43%;" src="/image/pozostale.png"><a href="{{ action('ArticleController@publicHomePagePozostale') }}#kat_element"><br>Pozostałe</a>
+                 <div style="border-right: 2px gray dashed;" id="kat_element" class="col col-xs-6 col-sm-2 col-md-2 col-lg-2 col-xl-2"><img style="width: 30%;" src="/image/pozostale.png"><a href="{{ action('ArticleController@publicHomePagePozostale') }}#kat_element"><br>Pozostałe</a>
                  
                  </div>
                  
-                  <div class="col col-xs-0 col-sm-1 col-md-2 col-lg-2 col-xl-2"></div>
+                  <div class="col col-xs-0 col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>
                      
                  
                  </div>
@@ -71,7 +71,7 @@
               
                 @foreach($articles as $article)
                 
-               <div style="padding-top: 60px; " class="col col-xs-12 col-sm-12 col-md-4 col-xl-4 col-lg-4" >
+               <div style="padding-top: 60px; " class="col col-xs-12 col-sm-6 col-md-6 col-xl-4 col-lg-4" >
                   
                    <div style=" margin-bottom:5px; padding-bottom: 5px;"  class="col-12">
                        
@@ -88,11 +88,12 @@
                  @endforeach
                
                    <div class="row"> <!-- pasek przewijania artykułów -->
-                       
-                      <div style="font-family: 'Amatic SC', cursive; font-size: 25px; color:black; border: none;" class="col col-lg-12 col-lg-offset-5"  >
+                     
+                      <div style="font-family: 'Amatic SC', cursive; font-size: 25px; color:black; border: none;" class="col-md-4 col-md-offset-5 col-xs-4 col-xs-offset-4 col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5"  >
                           
                           {!! $articles->links() !!}
-                      </div> 
+                      </div>
+                        
                    </div>
                 
             </div>

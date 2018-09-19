@@ -12,7 +12,7 @@
 <div class="row"> 
 <div class="col col-xs-0 col-sm-0 col-md-2 col-xl-2 col-lg-3"></div>
 <div class="col col-xs-0 col-sm-0 col-md-8 col-xl-8 col-lg-6" style="margin-top: 60px; margin-bottom: 60px;">
-	<h1 style="font-family: 'Amatic SC', cursive; font-size: 40px;" >Skontaktuj się ze mną!</h1>
+	<h1 style="font-family: 'Amatic SC', cursive; font-size: 40px; text-align: center;" >Skontaktuj się ze mną!</h1>
 	
 	@if(session('message'))
 	<div class='alert alert-success'>
@@ -43,6 +43,7 @@
 			</div>
 		</form>
 	</div>
+	<h1 style="font-family: 'Amatic SC', cursive; font-size: 40px; text-align: center; " >Bezpośredni kontakt pod adresem mailowym: <span style="color:gold;">markowakuchnia@gmail.com</span></h1>
 	</div>
 	<div class="col col-xs-0 col-sm-0 col-md-2 col-xl-2 col-lg-3"></div>
 	 
