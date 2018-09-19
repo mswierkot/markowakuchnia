@@ -241,7 +241,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
            {
                 border: 3px solid white;
                 transition: 1s ease;
-                height:400px;
+                height:300px;
                width:100%;
            }
            #sec_recipie_img:hover
@@ -258,7 +258,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                 font-weight:bold;  
                 font-family: 'Amatic SC', cursive; 
                 text-align:center; 
-                padding-top: 150px;
+                padding-top: 120px;
               
                 
             } 
