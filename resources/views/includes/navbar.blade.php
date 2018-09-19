@@ -37,7 +37,7 @@
                               </div>
                               
                               <div id="nav_element" class="col col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1">
-                                <a  href="{{ action('ContactController@show') }} ">Kontakt</a>
+                                <a style="color:white;"  href="{{ action('ContactController@show') }} ">Kontakt</a>
                           
                                 </div>
                               
