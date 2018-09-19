@@ -22,6 +22,7 @@ class CreateArticlesTable extends Migration
             $table->text('miniatura2');  
             $table->text('miniatura3');  
             $table->text('lista');
+            $table->text('category');
             $table->timestamps();
         });
     }

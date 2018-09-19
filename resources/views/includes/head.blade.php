@@ -89,7 +89,7 @@
         
         #nav_div_3
            {
-               height: 450px; 
+               height: 500px; 
            }
          
         #nav_div_4
@@ -110,12 +110,13 @@
                text-align:center; 
                font-size: 59px; 
                margin-bottom: -10px; 
-               
+             
                color: black;
                font-family: 'Dancing Script', cursive;
            }
            #nav_p_2
            {
+                 margin-bottom:60px;
                color:  goldenrod;
                 text-align:center; 
                font-size: 35px;  
