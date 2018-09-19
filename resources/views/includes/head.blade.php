@@ -257,7 +257,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
                 font-weight:bold;  
                 font-family: 'Amatic SC', cursive; 
                 text-align:center; 
-                padding-top: 100px;
+                padding-top: 150px;
               
                 
             } 

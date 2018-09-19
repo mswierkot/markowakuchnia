@@ -71,7 +71,7 @@
               
                 @foreach($articles as $article)
                 
-               <div style="padding-top: 60px; " class="col col-xs-12 col-sm-6 col-md-6 col-xl-4 col-lg-4" >
+               <div style="margin-top: 50px; " class="col col-xs-12 col-sm-6 col-md-6 col-xl-4 col-lg-4" >
                   
                    <div style=" margin-bottom:5px; padding-bottom: 5px;"  class="col-12">
                        
