@@ -15,10 +15,10 @@
 </div>
 
 @else
-
-    <p>Odmowa dostępu dla niepowołanych użytkowników</p>
+   <p id="nav_p"> <img class="img-fluid"  src="/image/logo.png"> </p>
+    <p style="text-align: center; font-size: 25px;">Markowa Kuchnia - chwilka, chwilka! Wstęp ma tylko kucharz!</p>
     
 @endif
 
-</body>w
+</body>
 </html>
